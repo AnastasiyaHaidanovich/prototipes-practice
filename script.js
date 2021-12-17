@@ -11,9 +11,10 @@ class First {
 class Second extends First {
     constructor() {
         super();
-        return super.hello();
+        
     }
     hello() {
+        super.hello();
         console.log("А я наследуемый метод!");
     }
 }
